@@ -8,7 +8,6 @@
     "start": "ts-node src/index.ts",
     "build": "tsc",
     "serve": "node dist/index.js"
-
   },
   "author": "m2bit",
   "license": "ISC",
@@ -16,7 +15,9 @@
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.0",
     "express": "^4.21.2",
+    "prisma": "^6.3.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   }
 }
